@@ -248,6 +248,13 @@ func NewSMTP(rawURL string, tlsConfig *tls.Config) (*SMTP, error) {
 	return mysmtp, nil
 }
 
+/// set smtp auth handle
+func (s *SMTP) SetAuth(auth smtp.Auth) {
+	if auth != nil {
+		s.auth = &auth
+	}
+}
+
 // Send connects to the server and sends the email message.
 func (s *SMTP) Send(msg *Message) error {
 	var conn net.Conn
