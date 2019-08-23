@@ -1,6 +1,6 @@
 # goemail
 
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/dajohi/goemail)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/yenole/goemail)
 
 ## License
 
